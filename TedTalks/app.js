@@ -1,22 +1,6 @@
-
-
-
-// const dropdown = document.getElementById("dropdown_item")
-// const dropdownBtn = document.getElementById("dropdownBtn")
-// const dropdownContent = document.getElementById("drop-content")
-
-// dropdownBtn.addEventListener('mouseover', function(){
-//     dropdownContent.style.display = "block";
-// })
-
-// dropdown.addEventListener('mouseleave', function(){
-//     dropdownContent.style.display = "none";
-// })
-
-
-
 const buttons = document.querySelectorAll('.header_item button');
 const dropdowns = document.querySelectorAll('.flex-dropdown');
+const sideBtn = document.getElementById('menu-icon');
 
 
 dropdowns.forEach(dropdown => {
@@ -40,3 +24,4 @@ dropdowns.forEach(dropdown => {
     });
 
 });
+
