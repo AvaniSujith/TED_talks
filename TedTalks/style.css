@@ -1,8 +1,8 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');  */
 
 @font-face {
-    font-family: 'Inter', sans-serif;
-    src: url(assets/font/Inter-VariableFont_opsz\,wght.ttf);
+    font-family: 'Inter';
+    src: url(assets/font/inter-upright.var.woff2);
 }
 
 *{
@@ -22,7 +22,7 @@ body{
     src: url('assets/font/ted-ui-icons.ttf');
 }
 
-.block_header{
+.block-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,7 +51,7 @@ a{
     text-decoration: none;
 }
 
-.block_header_desk{
+.block-header-desk{
     display: none;
 }
 header{
@@ -196,7 +196,7 @@ body{
     display: block;
 }
 
-.btn-text{
+.nav-end-btn .btn-text{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -235,7 +235,7 @@ body{
     padding: 0.625rem 0.625rem 0.625rem 0rem;
 }
 
-.search_block{
+.search-block{
     width: 100%;
 }
 
@@ -248,8 +248,21 @@ main{
     padding: 0 0.75rem;
 }
 
-.search_btns_block{
+.search-btns-block{
     display: none;
+}
+
+.search-btns-block .search-btn{
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.search-btns-block .search-btn .dropdown-btn{
+    position: absolute;
+    top: 30%;
+    right: .5rem;
+    margin-right: .5rem;
 }
 
 .input-bar{
@@ -280,6 +293,7 @@ main{
     font-family: 'Inter', sans-serif;
     font-size: 0.875rem;
     color: rgb(18, 18, 18);
+    height: 21px;
     line-height: 21px;
     /* opacity: 0.99; */
     padding-top: 1px;
@@ -306,6 +320,22 @@ main{
     font-weight: 400;
 }
 
+.dropdown-btn:before{
+    content: "\e923";
+    font-family: "Ted-ui-icon";
+    font-style: normal;
+    font-variant: normal;
+    font-size: 1rem;
+}
+
+.droplist-block{
+    width: max-content;
+}
+
+.droplist-block .block-item{
+    width: 8.75rem;
+    text-align: left;
+}
 
 /* .bar{
     position: absolute;
@@ -317,6 +347,129 @@ main{
     transform: translateY(50%);
 } */
 
+.topics-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1540px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.5rem 0.375rem 0rem 0.375rem;
+    text-align: center;
+
+}
+
+.topic-text{
+    text-wrap: nowrap;
+    padding-bottom: 1rem;
+}
+
+.topic-text p{
+    margin: 0;
+    color: rgb(18, 18, 18);
+    line-height: 1.35;
+    font-weight: 400;
+    letter-spacing: -.0035em;
+    font-size: 0.875rem;
+}
+.scroll-container{
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    width: 100%;
+}
+
+.first-scroll, .second-scroll{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.first-btn, .second-btn{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(18, 18, 18, 0.16);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2.75rem;
+    overflow: hidden;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.first-btn p, .second-btn p{
+    color: rgb(18, 18, 18);
+    letter-spacing: -.0035em;
+    line-height: 1.35;
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin: 0;
+}
+
+.first-btn p span, .second-btn p span{
+    white-space: nowrap;
+}
+
+.scroll-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-arrow-btn:before{
+    content: "\e924";
+    font-family: "Ted-ui-icon";
+    font-style: normal;
+    font-variant: normal;
+    font-size: 16px;
+}
+
+.right-arrow-btn:before{
+    content: "\e925";
+    font-family: "Ted-ui-icon";
+    font-style: normal;
+    font-variant: normal;
+    font-size: 16px;
+}
+
+.right-scroll-btn, .left-scroll-btn{
+    background-color: rgb(255, 255, 255);
+    height: 1.5rem;
+    width: 1.5rem;
+    z-index: 40;
+    border-radius: 9999999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  -1px 1px 2px 0px rgba(0, 0, 0, .2);
+}
+
+.scroll-btn{
+    background-color: transparent;
+    border: none;
+}
+
+footer{
+    background-color: rgb(18, 18, 18);
+}
+
+.footer-start{
+    padding: 0rem 1.25rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.start-header img{
+    height: 1.5rem;
+    margin: 3rem 0rem;
+}
+
 @media screen and (min-width:640px){
     main{
         padding: 0 1rem;
@@ -325,7 +478,7 @@ main{
 }
 
 @media screen and (min-width:700px){
-    .block_header{
+    .block-header{
         padding-left: 2.5rem;
         padding-right: 2.5rem;
     }
@@ -338,24 +491,40 @@ main{
 }
 
 @media screen and (min-width:1024px){
-    .search_btns_block{
+    main{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .search-btns-block{
         display: flex;
         justify-content: space-between;
         flex-grow: 1;
+        margin-left: .5rem;
     }
 
     .search-bar{
         display: flex;
         justify-content: space-between;
-
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
-    .search_btns{
+    .search-btns{
         display: flex;
-
+        gap: 1rem;
+        justify-content: flex-end;
     }
 
-    .search_block{
+    .search-btns .search-item:first-child{
+        width: 109px;
+    }
+
+    .search-btns .search-item:nth-child(2), .search-btns .search-item:nth-child(3){
+        width: 120px;
+    }
+
+    .search-block{
         max-width: 220px;
     }
 
@@ -363,28 +532,96 @@ main{
         display: none;
     }
 
-    .newest_btn{
+    .newest-btn{
         width: 106px;
         flex-shrink: 0;
         min-width: max-content;
         position: relative;
+        padding-right: .5rem;
+    }
+
+    .newest-btn button{
+        background-color: transparent;
+        border: 1px solid hsla(0, 0%, 7%, .16);
+        border-radius: 4px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .search-btns .search-item button{
+        background-color: transparent;
+        border: 1px solid hsla(0, 0%, 7%, .16);
+        border-radius: 4px;
+        width: 100%;
+        text-align: left;
+        font-size: 0.875rem;
+        color: rgb(38, 38, 38);
+        font-weight: 400;
+    }
+
+    .search-btns .search-item:first-child button{
+        text-align: center;
+        padding: 0.75rem 0rem;
+        font-size: 0.875rem;
+        font-weight: 400;
+        color: rgb(38, 38, 38);
+    }
+
+    .search-btns .search-item:first-child button span{
+        padding: 0;
+        margin: 0;
     }
 
     .search-btn{
         min-height: 3rem;
         padding: 0.75rem 3rem 0.75rem .5rem; 
-
     }
 
-
-}
-
-@media screen and (min-width:1100px){
-    .block_header{
+    .droplist-block{
+        background-color: rgb(255, 255, 255);
+        border: 1px solid hsla(0, 0%, 7%, .16);
+        border-radius: 4px;
+        margin-top: 0.25rem;
+        z-index: 50;
+        font-size: 1rem;
         display: none;
     }
 
-    .block_header_desk{
+    .droplist-block button{
+        border: none;
+        padding: 0.75rem 1rem 0.5rem 0.5rem;
+        /* border-bottom: 1px solid hsla(0, 0%, 7%, .16); */
+    }
+
+    .droplist-block button span{
+        font-size: 0.875rem;
+        line-height: 1.35;
+        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+        letter-spacing: -.0035em;
+        color: rgb(18, 18, 18);
+        border: 0px;
+    }
+
+    hr.subtitle-border{
+        margin: 0rem .5rem;
+        height: 1px;
+        line-height: 1px;
+        border: none;
+        background-color: hsla(0, 0%, 7%, .16);
+    }
+
+    .search-btns .droplist-block button{
+        border: none;
+    }
+}
+
+@media screen and (min-width:1100px){
+    .block-header{
+        display: none;
+    }
+
+    .block-header-desk{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -428,7 +665,7 @@ main{
         /* position: relative; */
     }
     
-    .header_item button{
+    .header-item button{
         background-color: transparent;
         border: none;
         padding-top: 1.25rem;
@@ -438,11 +675,11 @@ main{
         cursor: pointer;
     }
 
-    .header_item button:hover{
+    .header-item button:hover{
         background-color: rgb(246, 246, 246);
     }
 
-    .header_item{
+    .header-item{
         position: relative;
     }
 

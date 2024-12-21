@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <div class="block_header">
+        <div class="block-header">
             <button class="btn-icon">
                 <i class="menu-icon" id="menu-icon"></i>
                 <div class="menu-items">
@@ -168,7 +168,7 @@
                 </a>
             </div>
         </div>
-        <div class="block_header_desk">
+        <div class="block-header-desk">
             <div class="flex-logo">
                 <a href="#">
                     <img src="assets/svg/svgexport-1.svg" class="logo-img" alt="logo">
@@ -180,8 +180,8 @@
             <div class="flex-buttons">
                 <nav class="nav-items">
                     <ul class="list-items">
-                        <li class="header_item"><button>
-                            <div class="flex-dropdown" id="dropdown_item">
+                        <li class="header-item"><button>
+                            <div class="flex-dropdown" id="dropdown-item">
                                 <div class="flex-item" id="dropdownBtn">
                                     WATCH
                                 </div>
@@ -229,8 +229,8 @@
                                 </div>
                             </div>
                         </button></li>
-                        <li class="header_item"><button>
-                            <div class="flex-dropdown" id="dropdown_item">
+                        <li class="header-item"><button>
+                            <div class="flex-dropdown" id="dropdown-item">
                                 <div class="flex-item" id="dropdown-btn">
                                     DISCOVER
                                 </div>
@@ -278,8 +278,8 @@
                                </div> 
                             </div>
                         </button></li>
-                        <li class="header_item"><button>
-                            <div class="flex-dropdown" id="dropdown_item">
+                        <li class="header-item"><button>
+                            <div class="flex-dropdown" id="dropdown-item">
                                 <div class="flex-item">
                                     ATTEND
                                 </div>
@@ -319,8 +319,8 @@
                                 </div> 
                             </div>
                         </button></li>
-                        <li class="header_item"><button>
-                            <div class="flex-dropdown" id="dropdown_item">
+                        <li class="header-item"><button>
+                            <div class="flex-dropdown" id="dropdown-item">
                                 <div class="flex-item">
                                     PARTICIPATE
                                 </div>
@@ -368,8 +368,8 @@
                                 </div>
                             </div>
                         </button></li>
-                        <li class="header_item"><button>
-                            <div class="flex-dropdown" id="dropdown_item">
+                        <li class="header-item"><button>
+                            <div class="flex-dropdown" id="dropdown-item">
                                 <div class="flex-item">
                                     ABOUT
                                 </div>
@@ -433,7 +433,7 @@
     </header>
     <main>
         <section class="search-bar">
-            <div class="search_block">
+            <div class="search-block">
                 <div class="input-bar">
                     <i class="search-bar-icon"></i>
                     <div class="search-end-btn">
@@ -446,22 +446,53 @@
                     </div>
                 </div>
             </div>
-            <div class="search_btns_block">
-                <div class="newest_btn">
+            <div class="search-btns-block">
+                <div class="newest-btn">
                     <button class="search-btn active">
                         <i class="dropdown-btn"></i>
                         <span class="btn-text">
                             Sort By
                         </span>
-                        <p class="btn-inner-text">
+                        <!-- <p class="btn-inner-text">
                             Newest
-                        </p>
+                        </p> -->
                     </button>
+                    <ul class="droplist-block">
+                        <li class="block-item">
+                            <button>
+                                <span>Newest</span>
+                                <!-- <hr class="subtitle-border"> -->
+                            </button>
+                            <hr class="subtitle-border"> 
+                        </li>
+                        <li class="block-item">
+                            <button>
+                                <span>Oldest</span>
+                                <!-- <hr class="subtitle-border"> -->
+                            </button>
+                            <hr class="subtitle-border"> 
+                        </li>
+                        <li class="block-item">
+                            <button>
+                                <span>Relevance</span>
+                                <!-- <hr class="subtitle-border"> -->
+                            </button>
+                            <hr class="subtitle-border"> 
+                        </li>
+                        <li class="block-item">
+                            <button>
+                                <span>Most viewed</span>
+                                <!-- <hr class="subtitle-border"> -->
+                            </button>
+                        </li>
+                    </ul>
                 </div>
-                <div class="search_btns">
+                <div class="search-btns">
                     <div class="search-item">
                         <button class="search-btn">
-                            Topics
+                            <span class="btn-text">
+                                Topics
+                            </span>
                         </button>
                     </div>
                     <div class="search-item">
@@ -469,11 +500,61 @@
                             <button class="search-btn">
                                 <i class="dropdown-btn"></i>
                                 <span class="btn-text">
-                                    <p class="btn-inner-text">
+                                    <!-- <p class="btn-inner-text">
                                         Subtitles
-                                    </p>
+                                    </p> -->
+                                    Subtitles 
                                 </span>
                             </button>
+                            <ul class="droplist-block">
+                                <li class="block-item">
+                                    <button>
+                                        <span class="language">English</span>
+                                        <!-- <hr class="subtitle-border"> -->
+                                    </button>
+                                    <hr class="subtitle-border"> 
+
+                                </li>
+                                <li class="block-item">
+                                    <button>
+                                        <span class="language">Español</span>
+                                        <!-- <hr class="subtitle-border"> -->
+                                    </button>
+                                    <hr class="subtitle-border"> 
+
+                                </li>
+                                <li class="block-item">
+                                    <button>
+                                        <span class="language">日本語</span>
+                                        <!-- <hr class="subtitle-border"> -->
+                                    </button>
+                                    <hr class="subtitle-border"> 
+
+                                </li>
+                                <li class="block-item">
+                                    <button>
+                                        <span class="language">Português brasileiro</span>
+                                        <!-- <hr class="subtitle-border"> -->
+                                    </button>
+                                    <hr class="subtitle-border"> 
+
+                                </li>
+                                <li class="block-item">
+                                    <button>
+                                        <span class="language">中文 (繁體)</span>
+                                        <!-- <hr class="subtitle-border"> -->
+                                    </button>
+                                    <hr class="subtitle-border"> 
+
+                                </li>
+                                <li class="block-item">
+                                    <button>
+                                        <span class="language-bold">See all</span>
+                                        <i class="icon-arrow-right"></i>
+                                        <!-- <hr class="subtitle-border"> -->
+                                    </button>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div class="search-item">
@@ -481,21 +562,508 @@
                             <button class="search-btn">
                                 <i class="dropdown-btn"></i>
                                 <span class="btn-text">
-                                    <p class="btn-inner-text">
+                                    <!-- <p class="btn-inner-text">
                                         Duration
-                                    </p>
+                                    </p> -->
+                                    Duration
                                 </span>
                             </button>
+                            <ul class="droplist-block">
+                                <li class="block-item">
+                                    <button>
+                                        <span>0-6 minutes</span>
+                                        <!-- <hr class="subtitle-border"> -->
+                                    </button>
+                                    <hr class="subtitle-border"> 
+
+                                </li>
+                                <li class="block-item">
+                                    <button>
+                                        <span>6-12 minutes</span>
+                                        <!-- <hr class="subtitle-border"> -->
+                                    </button>
+                                    <hr class="subtitle-border"> 
+                                </li>
+                                <li class="block-item">
+                                    <button>
+                                        <span>12-18 minutes</span>
+                                        <!-- <hr class="subtitle-border"> -->
+                                    </button>
+                                    <hr class="subtitle-border"> 
+                                </li>
+                                <li class="block-item">
+                                    <button>
+                                        <span>18+ minutes</span>
+                                    </button>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="talks_block">
+        <section class="clear">
+            <div class="block-clear">
+                <button class="clear-btn">
+                    <p>
+                        <span>
+                            Clear Search
+                        </span>
+                    </p>
+                </button>
+                <h4 class="clear-text">
+                    6917 results about...
+                </h4>
+            </div>
+        </section>
+        <section class="talk-card">
+            <div class="block-cards">
+
+            </div>
+        </section>
+        <section class="block-topic">
+            <div class="topics-container">
+                <div class="topic-text">
+                    <p>
+                        Didn't find what you like? Start a new search.
+                    </p>
+                </div>
+                <div class="scroll-container">
+                    <section class="first-scroll">
+                        <div class="first-item">
+                            <button class="first-btn">
+                                <p>
+                                    <span>
+                                        TED-Ed
+                                    </span>
+                                </p>
+                            </button>
+                        </div>
+                        <div class="first-item">
+                            <button class="first-btn">
+                                <p>
+                                    <span>
+                                        Psychology
+                                    </span>
+                                </p>
+                            </button>
+                        </div>
+                        <div class="first-item">
+                            <button class="first-btn">
+                                <p>
+                                    <span>
+                                        Leadership
+                                    </span>
+                                </p>
+                            </button>
+                        </div>
+                        <div class="first-item">
+                            <button class="first-btn">
+                                <p>
+                                    <span>
+                                        Education
+                                    </span>
+                                </p>
+                            </button>
+                        </div>
+                        <div class="first-item">
+                            <button class="first-btn">
+                                <p>
+                                    <span>
+                                        AI
+                                    </span>
+                                </p>
+                            </button>
+                        </div>
+                        <div class="first-item">
+                            <button class="first-btn">
+                                <p>
+                                    <span>
+                                        Sleep
+                                    </span>
+                                </p>
+                            </button>
+                        </div>
+                        <div class="first-item">
+                            <button class="first-btn">
+                                <p>
+                                    <span>
+                                        Mental Health
+                                    </span>
+                                </p>
+                            </button>
+                        </div>
+                    </section>
+                    <div class="scroll-btns">
+                        <div class="left-scroll-btn">
+                            <button class="scroll-btn">
+                                <i class="left-arrow-btn"></i>
+                            </button>
+                        </div>
+                        <div class="right-scroll-btn">
+                            <button class="scroll-btn">
+                                <i class="right-arrow-btn"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <section class="second-scroll">
+                        <div class="second-item">
+                            <button class="second-btn">
+                                <p>
+                                    <span>
+                                        Business
+                                    </span>
+                                </p>
+                            </button>
+                        </div>
+                        <div class="second-item">
+                            <button class="second-btn">
+                                <p>
+                                    <span>
+                                        Motivation
+                                    </span>
+                                </p>
+                            </button>
+                        </div>
+                        <div class="second-item">
+                            <button class="second-btn">
+                                <p>
+                                    <span>
+                                        Communication
+                                    </span>
+                                </p>
+                            </button>
+                        </div>
+                        <div class="second-item">
+                            <button class="second-btn">
+                                <p>
+                                    <span>
+                                        Personal Growth
+                                    </span>
+                                </p>
+                            </button>
+                        </div>
+                        <div class="second-item">
+                            <button class="second-btn">
+                                <p>
+                                    <span>
+                                        Sports
+                                    </span>
+                                </p>
+                            </button>
+                        </div>
+                        <div class="second-item">
+                            <button class="second-btn">
+                                <p>
+                                    <span>
+                                        Health
+                                    </span>
+                                </p>
+                            </button>
+                        </div>
+                        <div class="second-item">
+                            <button class="second-btn">
+                                <p>
+                                    <span>
+                                        Language
+                                    </span>
+                                </p>
+                            </button>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        
+        <div class="footer-start">
+            <div class="block-start">
+                <div class="start-header">
+                    <img src="assets/svg/svgexport-2.svg" alt="heading">
+                </div>
+                <div class="start-container">
+                    <nav>
+                        <div class="explore">
+                            <div class="footer-header">
+                                Explore
+                            </div>
+                            <ul class="footer-lists">
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#">
+                                            <span>TEDx</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#">
+                                            <span>TED Fellows</span> 
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#">
+                                            <span>TED Ed</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#">
+                                            <span>TED Translators</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#">
+                                            <span>TED Institute</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#">
+                                            <span>The Audacious Project</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#">
+                                            <span>TED@Work</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#">
+                                            <span>Podcasts</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#">
+                                            <span>TED Blog</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#">
+                                            <span>More ways to get TED</span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="community">
+                            <div class="footer-header">
+                                Our community
+                            </div>
+                            <ul class="footer-items">
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#"> 
+                                            <span>TED Speakers</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#">
+                                            <span>TED Fellows</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#">
+                                            <span>TED Translators</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#">
+                                            <span>TEDx Organizers</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="footer-list">
+                                    <div>
+                                        <a href="#">
+                                            <span>TED Community</span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="newsletter">
+                <div>
+                    <div class="footer-header">
+                        Newsletters
+                    </div>
+                    <div class="footer-mail">
+                        <img src="assets/svg/svgexport-3.svg" alt="mail">
+                        <div class="mail-text">Get the latest talks</div>
+                    </div>
+                    <div class="footer-text-white">
+                        Get a daily email featuring the latest talk, plus a quick mix of trending content.
+                    </div>
+                    <form class="newsletter-form">
+                        <div class="newsletter-input">
+                            <input type="email" placeholder="What's your email?">
+                        </div>
+                        <div class="subscribe-btn">
+                            <button class="sub-btn">
+                                <span>Subscribe</span>
+                            </button>
+                        </div>
+                    </form>
+                    <div class="footer-text-grey">By subscribing, you understand and agree that we will store, process and manage your personal information according to our<!-- --> <a class="underline" href="/about/our-organization/our-policies-terms/privacy-policy">Privacy Policy</a></div>
+                </div>
+            </div>
+            <div class="footer-start-break">
+                <div class="border"></div>
+            </div>
+            <div class="footer-social">
+                <div class="ted-member">
+                    <div class="ted-member-heading">
+                        <a href="#">
+                            <div class="footer-header">
+                                Become a TED Member
+                            </div>
+                            <div class="go-icon">
+                                <img src="assets/svg/svgexport-4.svg" alt="icon">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ted-member-text">
+                        TED Members make our mission possible by supporting global access to inspiring ideas. Plus, they get to attend exclusive events. Help support a better future – and a brighter you.
+                    </div>
+                </div>
+                <div class="social-medias">
+                    <div class="footer-header">
+                        Follow TED
+                    </div>
+                    <div class="socialmedia-icons">
+                        <a href="#" class="social-icon">
+                            <img src="assets/svg/svgexport-5.svg" alt="icon">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="assets/svg/svgexport-6.svg" alt="icon">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="assets/svg/svgexport-7.svg" alt="icon">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="assets/svg/svgexport-8.svg" alt="icon">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="assets/svg/svgexport-9.svg" alt="icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="download-block">
+                    <div class="footer-header">
+                        Download the TED App
+                    </div>
+                    <div class="download-icons">
+                        <a href="#" class="dwnld-icon">
+                            <img src="assets/svg/svgexport-10.svg" alt="icon">
+                        </a>
+                        <a href="#" class="dwnld-icon">
+                            <img src="assets/svg/appstore.svg" alt="icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-end">
+            <div class="footer-end-links">
+                <nav>
+                    <ul class="footer-end-items">
+                        <li class="footer-end-list">
+                            <div>
+                                <a href="#">
+                                    <span>TED Talks Usage Policy</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="footer-end-list">
+                            <div>
+                                <a href="#">
+                                    <span>Privacy Policy</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="footer-end-list">
+                            <div>
+                                <a href="#">
+                                    <span>Advertising / Partnership</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="footer-end-list">
+                            <div>
+                                <a href="#">
+                                    <span>TED.com Terms of Use</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="footer-end-list">
+                            <div>
+                                <a href="#">
+                                    <span>Jobs</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="footer-end-list">
+                            <div>
+                                <a href="#">
+                                    <span>Press</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="footer-end-list">
+                            <div>
+                                <a href="#">
+                                    <span>Help</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="footer-end-list">
+                            <div>
+                                <a href="#">
+                                    <span>Privacy Preferences</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-end-gap"></div>
+            <div class="footer-end-text">
+                <div class="end-text-border"></div>
+                <div class="end-text">
+                    © TED Conferences, LLC. All rights reserved.
+                </div>
+            </div>
+        </div>
+        <section class="sticky-btn">
+            <div class="sticky-button">
+                <button>
+                    <i class="arrow-up"></i>
+                </button>
+            </div>
+        </section>
     </footer>
     <script src="app.js"></script>
 </body>
