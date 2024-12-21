@@ -456,6 +456,11 @@ footer{
     background-color: rgb(18, 18, 18);
 }
 
+.start-header img{
+    height: 1.5rem;
+    margin: 3rem 0rem;
+}
+
 .footer-start{
     padding: 0rem 1.25rem;
     max-width: 1200px;
@@ -465,11 +470,234 @@ footer{
     flex-wrap: wrap;
 }
 
-.start-header img{
-    height: 1.5rem;
-    margin: 3rem 0rem;
+.footer-header{
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.35;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1.5rem;
 }
 
+.footer-list div{
+    margin-bottom: 1.25rem;
+    /* width: max-content; */
+}
+
+.footer-list div a{
+    color: rgb(255, 255, 255);
+}
+
+.footer-list div a span{
+    letter-spacing: -.0035em;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.footer-lists{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    padding-bottom: 1rem;
+}
+
+.footer-list{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-right: 1rem;
+    text-wrap: wrap;
+}
+
+.community{
+    border-top: 1px solid rgb(181, 181, 181);
+    padding-top: 2.5rem;
+    padding-right: 1rem;
+}
+
+.explore{
+    padding-right: 1rem;
+}
+
+.newsletter{
+    border-top: 1px solid rgb(181, 181, 181);
+    padding-top: 2.5rem;
+}
+
+.footer-mail{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.mail-text{
+    padding-top: 0.25rem;
+}
+
+.footer-mail img{
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+.footer-text-white{
+    color: rgb(255, 255, 255);
+    font-size: 0.875rem;
+    margin: 1rem 0rem;
+    line-height: 1.35; 
+}
+
+.footer-text-grey{
+    color: rgb(181, 181, 181);
+    font-size: 0.875rem;
+    line-height: 1.35;
+    margin-bottom: 2.5rem;
+}
+
+.part{
+    text-decoration: underline;
+    text-decoration-color: rgb(181, 181, 181);
+    cursor: pointer;
+}
+
+.newsletter-form{
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    height: 2.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.newsletter-input input{
+    border: none;
+    padding: 0px;
+    font-size: 1rem;
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.newsletter-input{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.sub-btn{
+    background-color: transparent;
+    border: none;
+    white-space: nowrap;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: -.0035em;
+    color: rgb(246, 246, 246);
+    padding: 0rem 1rem;
+}
+
+.subscribe-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.75rem;
+}
+
+.footer-social{
+    border-top: 1px solid rgb(181, 181, 181);
+    padding-top: 2.5rem;
+}
+
+.ted-member-heading{
+    margin-bottom: 1.5rem;
+}
+
+.ted-member-heading a{
+    display: flex;
+    align-items: center;
+}
+
+.ted-member-heading .footer-header{
+    margin-bottom: 0px;
+    margin-right: 0.25rem;
+}
+
+.go-icon img{
+    height: 16px;
+    width: 16px;
+}
+
+.go-icon{
+    height: 16px;
+    width: 16px;
+}
+
+.ted-member-text{
+    color: rgb(255, 255, 255);
+    font-size: 0.875rem;
+    line-height: 1.35;
+}
+
+.ted-member{
+    margin-bottom: 2.5rem;
+}
+
+.social-medias{
+    padding: 2.5rem 0rem;
+    border-top: 1px solid rgb(181, 181, 181);
+}
+
+.download-block{
+    padding: 2.5rem 0rem;
+    border-top: 1px solid rgb(181, 181, 181);
+}
+
+.app-store svg{
+    height: 2.75rem;
+}
+
+.download-icons{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.socialmedia-icons{
+    display: flex;
+    gap: 1.25rem;
+}
+
+.footer-end{
+    border-top: 1px solid rgb(181, 181, 181);
+    padding: 0rem 1.25rem;
+}
+
+.footer-end-list a{
+    font-size: 0.875rem;
+    line-height: 1.35;
+    color: rgb(181, 181, 181);
+}
+
+.footer-end-list div{
+    margin-bottom: 1.25rem;
+}
+
+.footer-end-items{
+    padding:2rem 0rem 0.75rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-end-list{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-right: 1rem;
+}
+
+.end-text{
+    color: rgb(181, 181, 181);
+    font-size: 0.875rem;
+    line-height: 1.35;
+    padding-bottom: 3rem;
+}
 @media screen and (min-width:640px){
     main{
         padding: 0 1rem;
