@@ -7,43 +7,43 @@
         "duration"  : "08:42"
     },
     {
-        "image"     : "assets/image/image2.jpg",
+        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_138324/c3b5393e-2bc3-484b-9ccd-0657ebaccb84/2024_TED_Fellows_Films_Thumbs_Sahba-Aminikia-2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
         "title"     : "The greatest show on Earth — for kids who need it most",
         "author"    : "SAHBA AMINIKIA",
         "duration"  : "05:30"
     },
     {
-        "image"     : "assets/image/image3.jpg",
+        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_143020/07736072-77f5-4b82-bb0c-e9073d912758/TEDExplains_Angus_Harvey_Thumbnails_ep2_2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
         "title"     : "Break the bad news bubble (Part 2)",
         "author"    : "ANGUS HERVEY",
         "duration"  : "08:17"
     },
     {
-        "image"     : "assets/image/image4.jpg",
+        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_143016/bbc3f692-1735-47d9-b7fe-7763726ab2e7/betterfriend_textless.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
         "title"     : "How some friendships last — and others don’t",
         "author"    : "ISEULT GILLESPIE",
         "duration"  : "04:42"
     },
     {
-        "image"     : "assets/image/image5.jpg",
+        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142988/077f446f-90cd-4495-a946-92ff7c5a8c7a/GuyWinch_2024V-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
         "title"     : "How to protect your emotional health during the holidays",
         "author"    : "GUY WINCH",
         "duration"  : "55:50"
     },
     {
-        "image"     : "assets/image/image6.jpg",
+        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142492/a72904af-f633-4b66-b6c7-90bd47932e0f/AdrianaGalvan_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
         "title"     : "3 reasons to take risks like a teenager",
         "author"    : "ADRIANA GALVAN",
         "duration"  : "07:16"
     },
     {
-        "image"     : "assets/image/image7.jpg", 
+        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142491/7ed38e10-fbf9-4f46-b0fa-ed4653c3368e/JoshuaAmponsem_2024T-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200", 
         "title"     : "The absurd inequality of climate work — and how to fix it",
         "author"    : "JOSHUA AMPONSEM",
         "duration"  : "09:50"
     },
     {
-        "image"     : "assets/image/image8.jpg",
+        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_143158/924a1534-d8b9-416b-8423-24ece6a9a1aa/TAC_HowToBeABetterHuman_FranklinLeonard_2021V-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
         "title"     : "Why you should start thinking about death (w/ Alua Arthur)",
         "author"    : "HOW TO BE A BETTER HUMAN",
         "duration"  : "34:38"
