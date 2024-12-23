@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
           // Create Card
           const card = document.createElement("div"); 
           card.classList.add("card");
-  
+          
           // Add Image
           const img = document.createElement("img");
           img.src = video.image;

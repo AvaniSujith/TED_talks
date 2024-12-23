@@ -698,6 +698,57 @@ footer{
     line-height: 1.35;
     padding-bottom: 3rem;
 }
+
+.card-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card{
+    background: #fff;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 15px;
+}
+
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-author{
+    color: #ddd;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card-duration{
+    font-size: 12px;
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 3px 6px;
+    border-radius: 4px;
+
+}
+
 @media screen and (min-width:640px){
     main{
         padding: 0 1rem;
