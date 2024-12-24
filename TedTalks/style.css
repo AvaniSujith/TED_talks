@@ -759,6 +759,8 @@ footer{
 .clear-btn{
     background-color: transparent;
     border: none;
+    text-align: left;
+    padding: 0;
 }
 
 .clear-btn p{
@@ -769,7 +771,8 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
-    align-items: center;
+    /* align-items: center; */
+    text-align: left;
 }
 
 .block-clear p{
