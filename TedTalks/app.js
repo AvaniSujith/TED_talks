@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const buttons = document.querySelectorAll('.search-btn');
     
-    // Set default for first sort-by button only
+
     const firstSortButton = document.querySelector('.newest-btn .search-btn');
     if (firstSortButton) {
         const btnText = firstSortButton.querySelector('.btn-text');
