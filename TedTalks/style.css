@@ -104,7 +104,7 @@ body{
     padding-bottom: 1.5rem;
     overflow:auto;
     max-height: calc(100vh - 57px);
-    display: none;
+    /* display: none; */
 }
 
 .form-input{
@@ -147,14 +147,14 @@ body{
 
 .nav-list{
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0.75rem;
     text-align: left;
 }
 
 .list-header{
     color: rgb(117, 117, 117);
     font-weight: 700;
-    font-size: .6785rem;
+    font-size: 11px;
     line-height: 11px;
     margin-bottom: 1.5rem;
 }
@@ -165,10 +165,6 @@ body{
 }
 
 .nav-list-items{
-    /* display: grid;
-    grid-template-columns: repeat(2,minmax(0,1fr));
-    column-gap: 16px;
-    padding-top: 2px; */
     column-count: 2;
     column-fill: balance;
     column-gap: 16px;
@@ -178,8 +174,15 @@ body{
     text-decoration: underline;
 }
 
+.watch-list .nav-item:nth-child(3){
+    padding-top: 3.5px;
+}
+
 .nav-item{
     margin-bottom: 1.25rem;
+    padding-top: 3px;
+    display: inline-block;
+    width: 100%;
 }
 
 .nav-item a div{

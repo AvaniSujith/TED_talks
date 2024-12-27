@@ -1,41 +1,41 @@
-document.addEventListener("DOMContentLoaded", ()=> {
+document.addEventListener("DOMContentLoaded", ()=>{
     let videoData = [];
 
-    // fetching of inital data from data.json 
     fetch("data.json")
         .then((response) => response.json())
         .then((data) => {
             videoData = data;
-            getVideos(videoData)
+            getVideos(videoData);
         })
         .catch((error) => console.error("Connection failed", error));
 
     const videoGrid = document.getElementById("video-grid");
 
-    // clicking on duration items 
-    const durationItems = document.querySelectorAll('.duration-item');
-    durationItems.forEach(item => {
-        item.addEventListener('click', function(e) {
-            const range = this.querySelector('span').textContent.trim();
-            const filteredVideos = filterByDuration(videoData, range);
+    const subtitleItems = document.querySelectorAll('.subtitle-item');
+    subtitleItems.forEach(item => {
+        item.addEventListener('click', function(e){
+            e.preventDefault();
+            const language = e.target.textContent;
+            const filteredVideos = filterBySubtitle(videoData, language);
             getVideos(filteredVideos);
         });
     });
 
-    const filterByDuration = (videos, range) => {
+    const filterBySubtitle = (videos, language) =>{
         return videos.filter(video => {
-            const durationParts = video.duration.split(":");
-            const durationMin = parseInt(durationParts[0]) + parseInt(durationParts[1]) /60;
+            const subtitleLang = video.subtitle;
 
-            switch(range){
-                case '0-6 minutes':
-                    return durationMin <= 6;
-                case '6-12 minutes':
-                    return durationMin > 6 && durationMin <=12;
-                case '12-18 minutes':
-                    return durationMin > 12 && durationMin <=18;
-                case '18+ minutes':
-                    return durationMin > 18;
+            switch(language){
+                case 'English':
+                    return subtitleLang === "English"
+                case 'Español':
+                    return subtitleLang === 'Español'
+                case '日本語':
+                    return subtitleLang === '日本語'
+                case 'Português brasileiro':
+                    return subtitleLang === 'Português brasileiro'
+                case '中文 (繁體)':
+                    return subtitleLang === '中文 (繁體)'
                 default:
                     return true;
             }
@@ -53,35 +53,33 @@ document.addEventListener("DOMContentLoaded", ()=> {
             return;
         }
 
-        videos.forEach(video => {
+        videos.forEach(video =>{
             const card = createCards(video);
             videoGrid.appendChild(card);
         });
     };
 
-
-    // creating card Elements
-    const createCards = (video) => {
+    const createCards = (video) =>{
         const card = document.createElement('div');
         card.classList.add('card');
 
         const thumbnailContainer = document.createElement('div');
         thumbnailContainer.classList.add('thumbnails');
 
-        const img = document.createElement('img');
+        const img = document.createElement('img')
         img.src = video.image;
         img.alt = video.title;
         img.loading = 'lazy';
         thumbnailContainer.appendChild(img);
 
-        const durationBadge = document.createElement('div');
-        durationBadge.classList.add('duration-badge');
-        durationBadge.textContent = video.duration;
-        thumbnailContainer.appendChild(durationBadge);
+        const durationTime = document.createElement('div');
+        durationTime.classList.add('duration');
+        durationTime.textContent = video.duration;
+        thumbnailContainer.appendChild(durationTime);
 
         card.appendChild(thumbnailContainer);
 
-        const content = document.createElement('div');
+        const content = document.createElement('div')
         content.classList.add('card-content');
 
         const title = document.createElement('div');
@@ -96,6 +94,6 @@ document.addEventListener("DOMContentLoaded", ()=> {
 
         card.appendChild(content);
         return card;
-    };
 
+    }
 })

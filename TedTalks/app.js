@@ -26,7 +26,6 @@ dropdowns.forEach(dropdown => {
 });
 
 
-
 document.addEventListener('DOMContentLoaded', function() {
     const style = document.createElement('style');
     style.textContent = `
@@ -145,7 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (!selectedItem) {
                 selectedItem = document.createElement('span');
                 selectedItem.className = 'selected-item';
-                button.appendChild(selectedItem);
+                button.appendChild(selectedItem); 
             }
             selectedItem.textContent = selectedText;
             
