@@ -949,6 +949,28 @@ footer{
     margin: 0;
 }
 
+.advertisement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.advertisement-header{
+    padding-bottom: .5rem;
+}
+
+.advertisement-header span{
+    color: rgb(113, 113, 113);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: -.0035em;
+}
+
 @keyframes slideToRight{
     0%{
         transform: translateX(-100%);
@@ -1381,4 +1403,5 @@ footer{
         margin-top: 5px;
     }
 }
+
 
