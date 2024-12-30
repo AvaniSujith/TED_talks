@@ -1,50 +1,51 @@
-document.addEventListener("DOMContentLoaded", ()=> {
+document.addEventListener("DOMContentLoaded", () => {
     let videoData = [];
 
-    fetch("data.json")
-        .then((response) => response.json())
-        .then((data) => {
-            videoData = data;
-            getVideos(videoData)
-        })
-        .catch((error) => console.error("Connection failed", error));
-
-    const videoGrid = document.getElementById("video-grid");
-
-    
-    const durationItems = document.querySelectorAll('.duration-item');
-    durationItems.forEach(item => {
-        item.addEventListener('click', function(e) {
-            const range = this.querySelector('span').textContent.trim();
-            const filteredVideos = filterByDuration(videoData, range);
-            getVideos(filteredVideos);
-        });
-    });
-
-    const filterByDuration = (videos, range) => {
-        return videos.filter(video => {
-            const durationParts = video.duration.split(":");
-            const durationMin = parseInt(durationParts[0]) + parseInt(durationParts[1]) /60;
-
-            switch(range){
-                case '0-6 minutes':
-                    return durationMin <= 6;
-                case '6-12 minutes':
-                    return durationMin > 6 && durationMin <=12;
-                case '12-18 minutes':
-                    return durationMin > 12 && durationMin <=18;
-                case '18+ minutes':
-                    return durationMin > 18;
-                default:
-                    return true;
+    const loadVideoData = async () => {
+        try {
+            const response = await fetch("data.json");
+            if(!response.ok){
+                throw new Error("Error detected");
             }
+            videoData = await response.json();
+            getVideos(videoData);
+            initializeFilters();
+        }catch(error){
+            console.error("Failed to load", error);
+            showError("Failed to load videos")
+        }
+    };
+
+    const initializeFilters = () => {
+        const subtitleItems = document.querySelectorAll('.subtitle-item');
+        subtitleItems.forEach(item => {
+            item.addEventListener('click', function(e){
+                e.preventDefault();
+                subtitleItems.forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+                const language = this.textContent.trim();
+                const filteredVideos = filterBySubtitle(videoData, language);
+                getVideos(filteredVideos);
+            });
         });
     };
 
-    const getVideos = (videos) => {
+    const filterBySubtitle = (videos,language) =>{
+        if(!language || language === "All"){
+            return videos;
+        }
+
+        return videos.filter(video => {
+            return video.subtitle.trim() === language.trim();
+        });
+    };
+
+    const videoGrid = document.getElementById("video-grid");
+
+    const getVideos = (videos) =>{
         videoGrid.innerHTML = '';
 
-        if(videos.length === 0){
+        if(!videos || videos.length === 0){
             const noVideosMessage = document.createElement('div');
             noVideosMessage.classList.add('no-video-message');
             noVideosMessage.textContent = 'No Videos';
@@ -57,7 +58,6 @@ document.addEventListener("DOMContentLoaded", ()=> {
             videoGrid.appendChild(card);
         });
     };
-
 
     const createCards = (video) => {
         const card = document.createElement('div');
@@ -96,5 +96,5 @@ document.addEventListener("DOMContentLoaded", ()=> {
         return card;
     };
 
-})
-
+    loadVideoData();
+});
