@@ -19,6 +19,8 @@ html, *{
 }
 
 body{
+    background-color: rgb(246, 246, 246);
+    position: relative;
     margin: 0;
     padding: 0;
 }
@@ -63,10 +65,6 @@ a{
 header{
     background-color: #fff;
     }
-
-body{
-    background-color: rgb(246, 246, 246);
-}
 
 /* main{
     background-color: rgb(246, 246, 246);
@@ -287,7 +285,10 @@ main{
 }
 
 .search-btns-block{
-    display: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    overflow: hidden;
 }
 
 .search-btns-block .search-btn{
@@ -302,6 +303,7 @@ main{
     right: .5rem;
     margin-right: .5rem;
 }
+
 
 .input-bar{
     position: relative;
@@ -324,6 +326,154 @@ main{
     font-family: "Ted-ui-icon";
     font-style: normal;
     font-variant: normal;
+}
+
+.search-btns{
+    display: flex;
+    gap: 0.5rem; 
+    justify-content: flex-end;
+}
+
+.search-btns .search-item:first-child{
+    width: 109px;
+}
+
+.search-btns .search-item:nth-child(2), .search-btns .search-item:nth-child(3){
+    width: 120px;
+}
+
+.newest-btn{
+    width: 106px;
+    flex-shrink: 0;
+    min-width: max-content;
+    position: relative;
+    padding-right: .5rem;
+}
+
+.newest-btn button{
+    background-color: transparent; 
+    border: 1px solid hsla(0, 0%, 7%, .16);
+    border-radius: 4px;
+    width: 100%;
+    text-align: left;
+}
+
+.search-btns .search-item button{
+    background-color: transparent;
+    border: 1px solid hsla(0, 0%, 7%, .16);
+    border-radius: 4px;
+    width: 100%;
+    text-align: left;
+    font-size: 0.875rem;
+    color: rgb(38, 38, 38);
+    font-weight: 400;
+}
+
+.search-btns .search-item:first-child button{
+    text-align: center;
+    padding: 0.75rem 0rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgb(38, 38, 38);
+}
+
+.search-btns .search-item:first-child button span{
+    padding: 0;
+    margin: 0;
+}
+
+.search-btn{
+    min-height: 3rem;
+    padding: 0.75rem 3rem 0.75rem .5rem; 
+}
+
+.search-item-div{
+    position: relative;
+}
+
+.droplist-block{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid hsla(0, 0%, 7%, .16);
+    border-radius: 4px;
+    margin-top: 4px;
+    z-index: 1000;
+    font-size: 1rem;
+    width: 8.75rem;
+    top: 100%;
+    left: 0;
+    display: none;
+    position: absolute;
+}
+
+.dropdown-btn{
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.dropdown-btn:active{
+    transform: rotate(180deg);
+}
+
+.btn-text {
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.droplist-block button{
+    border: none;
+    padding: 0.75rem 1rem 0.5rem 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* border-bottom: 1px solid hsla(0, 0%, 7%, .16); */
+}
+
+.droplist-block button span{
+    font-size: 0.875rem;
+    line-height: 18.9px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -.0035em;
+    color: rgb(18, 18, 18);
+    border: 0px;
+}
+
+hr.subtitle-border{
+    margin: 0rem .5rem;
+    height: 1px;
+    line-height: 1px;
+    border: none;
+    background-color: hsla(0, 0%, 7%, .16);
+}
+
+.icon-arrow-right::before{
+    font-family: "Ted-ui-icon";
+    content: "\e911";
+    font-weight: 400;
+    line-height: 16px;
+    font-size: 16px;
+    text-align: left;
+}
+
+#subtitle-end-item{
+    display: flex;
+    gap: 1rem;
+}
+
+#subtitle-end-item span{
+    font-weight: 700;
+}
+
+.search-btns .droplist-block button{
+    border: none;
+}
+
+.search-btn {
+    position: relative;
+    cursor: pointer;
+}
+
+.search-btn.active{
+    background-color: #ffffff;
 }
 
 .input-label{
@@ -498,6 +648,7 @@ footer{
 .start-header img{
     height: 1.5rem;
     margin: 3rem 0rem;
+    margin-bottom: 2.75rem;
 }
 
 .footer-start{
@@ -541,6 +692,7 @@ footer{
 }
 
 .footer-list{
+    /* display: flex; */
     flex-basis: 50%;
     max-width: 50%;
     padding-right: 1rem;
@@ -977,6 +1129,41 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 25px 15px;
+}
+
+.pop-up-heading{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.sticky-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    border: 1px solid rgba(18, 18, 18, 0.16);
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, .1);
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    right: 1rem;
+    bottom: 3rem;
+}
+
+.sticky-button button{
+    background-color: transparent;
+    border: none;
+}
+
+.arrow-up:before{
+    content: "\e914";
+    font-family: "Ted-ui-icon";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: rgb(18, 18, 18);
 }
 
 @keyframes slideToRight{
@@ -1029,6 +1216,10 @@ footer{
         padding-right: 2rem;
         margin-left: 2.5rem;
         margin-right: 2.5rem;
+    }
+
+    .search-btns-block{
+        display: flex;
     }
 
     .search-btns-block{
