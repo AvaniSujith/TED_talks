@@ -417,6 +417,16 @@ main{
 .btn-text {
     transition: transform 0.3s ease;
     display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.btn-text.animate-up{
+    font-size: 0.89rem;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: -.0035em;
+    color: rgb(38, 38, 38);
 }
 
 .droplist-block button{
@@ -1130,11 +1140,50 @@ footer{
     align-items: center;
     justify-content: center;
     padding: 25px 15px;
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    min-height: 100px;
+    left: 0;
+    bottom: 0;
+    border-radius: 10px 10px 0 0;
 }
 
 .pop-up-heading{
     font-size: 1.25rem;
     font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.pop-up-subheading{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.pop-up-content{
+    position: relative;
+}
+
+.pop-up-header:before{
+    content: url(https://media.sailthru.com/composer/images/sailthru-prod-7bj/Envelope%20Art.png);
+    position: absolute;
+    left: -39px;
+    top: 15%;
+    transform: translateY(-50%);
+    color: rgb(255, 255, 255);
+}
+
+.pop-up-header{ 
+    padding-left: 3px;
+}
+
+.selected-item{
+    background-color: #fff;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.35;
+    letter-spacing: -.0035em;
 }
 
 .sticky-button{
