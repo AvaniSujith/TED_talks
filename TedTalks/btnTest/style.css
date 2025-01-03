@@ -1,0 +1,66 @@
+.search-btns-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 1.5rem;
+}
+
+.newest-btn {
+    width: 106px;
+    flex-shrink: 0;
+    min-width: max-content;
+    position: relative;
+    padding-right: .5rem;
+}
+
+
+.search-btns {
+    display: flex
+;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+.search-btn.active {
+    background-color: #ffffff;
+}
+
+.search-btns-block .search-btn {
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+}
+.newest-btn button {
+    background-color: transparent;
+    border: 1px solid hsla(0, 0%, 7%, .16);
+    border-radius: 4px;
+    width: 100%;
+    text-align: left;
+}
+.search-btn {
+    transition: all 150ms cubic-bezier(.4,0,.2,1);
+}
+.search-btn {
+    position: relative;
+    cursor: pointer;
+}
+.search-btn {
+    min-height: 3rem;
+    padding: 0.75rem 3rem 0.75rem .5rem;
+}
+
+.newest-btn {
+    width: 106px;
+    flex-shrink: 0;
+    min-width: max-content;
+    position: relative;
+    padding-right: .5rem;
+}
+
+.search-btns .search-item:first-child {
+    width: 109px;
+}
+
+.search-btns .search-item:nth-child(2), .search-btns .search-item:nth-child(3) {
+    width: 120px;
+}

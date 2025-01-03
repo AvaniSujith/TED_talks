@@ -1,197 +1,261 @@
 [
     {
     
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142576/1cd48638-18ca-4834-b665-e8f1dcf88a57/MaijaWilliams_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
-        "title"     : "Health care is a right — not a privilege",
-        "author"    : "MAIJA WILLIAMS",
-        "duration"  : "08:42",
-        "subtitle"  : "English",
-        "sort"      : "oldest"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142576/1cd48638-18ca-4834-b665-e8f1dcf88a57/MaijaWilliams_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
+        "title"         : "Health care is a right — not a privilege",
+        "author"        : "MAIJA WILLIAMS",
+        "duration"      : "08:42",
+        "subtitle"      : "English",
+        "timestamp"     : "2024-01-01", 
+        "views"         : 15000, 
+        "relevanceScore": 85
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_138324/c3b5393e-2bc3-484b-9ccd-0657ebaccb84/2024_TED_Fellows_Films_Thumbs_Sahba-Aminikia-2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
-        "title"     : "The greatest show on Earth — for kids who need it most",
-        "author"    : "SAHBA AMINIKIA",
-        "duration"  : "05:30",
-        "subtitle"  : "Español",
-        "sort"      : "Relevance"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_138324/c3b5393e-2bc3-484b-9ccd-0657ebaccb84/2024_TED_Fellows_Films_Thumbs_Sahba-Aminikia-2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
+        "title"         : "The greatest show on Earth — for kids who need it most",
+        "author"        : "SAHBA AMINIKIA",
+        "duration"      : "05:30",
+        "subtitle"      : "Español",
+        "timestamp"     : "2024-01-02", 
+        "views"         : 12000, 
+        "relevanceScore": 78
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_143020/07736072-77f5-4b82-bb0c-e9073d912758/TEDExplains_Angus_Harvey_Thumbnails_ep2_2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
-        "title"     : "Break the bad news bubble (Part 2)",
-        "author"    : "ANGUS HERVEY",
-        "duration"  : "08:17",
-        "subtitle"  : "日本語",
-        "sort"      : "Most viewed"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_143020/07736072-77f5-4b82-bb0c-e9073d912758/TEDExplains_Angus_Harvey_Thumbnails_ep2_2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
+        "title"         : "Break the bad news bubble (Part 2)",
+        "author"        : "ANGUS HERVEY",
+        "duration"      : "08:17",
+        "subtitle"      : "日本語",
+        "timestamp"     : "2024-01-03", 
+        "views"         : 18000, 
+        "relevanceScore": 92
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_143016/bbc3f692-1735-47d9-b7fe-7763726ab2e7/betterfriend_textless.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
-        "title"     : "How some friendships last — and others don’t",
-        "author"    : "ISEULT GILLESPIE",
-        "duration"  : "04:42",
-        "subtitle"  : "Português brasileiro",
-        "sort"      : "oldest"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_143016/bbc3f692-1735-47d9-b7fe-7763726ab2e7/betterfriend_textless.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
+        "title"         : "How some friendships last — and others don’t",
+        "author"        : "ISEULT GILLESPIE",
+        "duration"      : "04:42",
+        "subtitle"      : "Português brasileiro",
+        "timestamp"     : "2024-01-04", 
+        "views"         : 9500, 
+        "relevanceScore": 67
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142988/077f446f-90cd-4495-a946-92ff7c5a8c7a/GuyWinch_2024V-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
-        "title"     : "How to protect your emotional health during the holidays",
-        "author"    : "GUY WINCH",
-        "duration"  : "55:50",
-        "subtitle"  : "中文 (繁體)",
-        "sort"      : "Relevance"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142988/077f446f-90cd-4495-a946-92ff7c5a8c7a/GuyWinch_2024V-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
+        "title"         : "How to protect your emotional health during the holidays",
+        "author"        : "GUY WINCH",
+        "duration"      : "55:50",
+        "subtitle"      : "中文 (繁體)",
+        "timestamp"     : "2024-01-05", 
+        "views"         : 20000, 
+        "relevanceScore": 88
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142492/a72904af-f633-4b66-b6c7-90bd47932e0f/AdrianaGalvan_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
-        "title"     : "3 reasons to take risks like a teenager",
-        "author"    : "ADRIANA GALVAN",
-        "duration"  : "07:16",
-        "subtitle"  : "English",
-        "sort"      : "Most viewed"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142492/a72904af-f633-4b66-b6c7-90bd47932e0f/AdrianaGalvan_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
+        "title"         : "3 reasons to take risks like a teenager",
+        "author"        : "ADRIANA GALVAN",
+        "duration"      : "07:16",
+        "subtitle"      : "English",
+        "timestamp"     : "2024-01-06", 
+        "views"         : 17000, 
+        "relevanceScore": 80
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142491/7ed38e10-fbf9-4f46-b0fa-ed4653c3368e/JoshuaAmponsem_2024T-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200", 
-        "title"     : "The absurd inequality of climate work — and how to fix it",
-        "author"    : "JOSHUA AMPONSEM",
-        "duration"  : "09:50",
-        "subtitle"  : "Español",
-        "sort"      : "oldest"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142491/7ed38e10-fbf9-4f46-b0fa-ed4653c3368e/JoshuaAmponsem_2024T-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200", 
+        "title"         : "The absurd inequality of climate work — and how to fix it",
+        "author"        : "JOSHUA AMPONSEM",
+        "duration"      : "09:50",
+        "subtitle"      : "Español",
+        
+        "timestamp"     : "2024-01-07", 
+        "views"         : 14500, 
+        "relevanceScore": 83
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_143158/924a1534-d8b9-416b-8423-24ece6a9a1aa/TAC_HowToBeABetterHuman_FranklinLeonard_2021V-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
-        "title"     : "Why you should start thinking about death (w/ Alua Arthur)",
-        "author"    : "HOW TO BE A BETTER HUMAN",
-        "duration"  : "34:38",
-        "subtitle"  :"中文 (繁體)",
-        "sort"      :"Relevance"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_143158/924a1534-d8b9-416b-8423-24ece6a9a1aa/TAC_HowToBeABetterHuman_FranklinLeonard_2021V-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1200",
+        "title"         : "Why you should start thinking about death (w/ Alua Arthur)",
+        "author"        : "HOW TO BE A BETTER HUMAN",
+        "duration"      : "34:38",
+        "subtitle"      :"中文 (繁體)",
+        "timestamp"     : "2024-01-08", 
+        "views"         : 16000, 
+        "relevanceScore": 86
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_141561/50ef340e-54b1-46f9-8bbf-65c6f025d1d1/Chin-TengLin_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
-        "title"     : "The mind-reading potential of AI",
-        "author"    : "CHIN-TENG LIN",
-        "duration"  : "15:40",
-        "subtitle"  :"中文 (繁體)",
-        "sort"      :"Relevance"
-    },
-    {
-    
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_143157/1765ec1e-aef9-471e-9d07-04440a4ca09d/RTA_TED.com_thumbnail_2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
-        "title"     : "How to be productive without burnout with Cal Newport",
-        "author"    : "RETHINKING WITH ADAM GRANT",
-        "duration"  : "41:29",
-        "subtitle"  : "English",
-        "sort"      : "oldest"
-    },
-    {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142578/cfda2a88-9c3d-41f7-94f4-1457bdc9c535/animalgenerosity_textless.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
-        "title"     : "Why animals help each other",
-        "author"    : "ASHLEY WARD",
-        "duration"  : "03:58",
-        "subtitle"  : "Español",
-        "sort"      : "Relevance"
-    },
-    {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142488/207e3403-6c9e-48de-a506-3023909b8213/GabriellaLascano_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
-        "title"     : "Can you love your body — and still want to change it? ",
-        "author"    : "GABRIELLA LASCANO",
-        "duration"  : "09:00",
-        "subtitle"  : "日本語",
-        "sort"      : "Most viewed"
-    },
-    {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142396/990419e1-6015-42c8-9dea-7bdc28526863/JonathanReimer_2024X-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
-        "title"     : "How to make big decisions in challenging circumstances",
-        "author"    : "JONATHAN REINMER",
-        "duration"  : "14:51",
-        "subtitle"  : "Português brasileiro",
-        "sort"      : "oldest"
-    },
-    {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142127/f3f13516-6a3e-4db4-b9b1-57e2234f9716/MartinEppler_2024X-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
-        "title"     : "Want to give a great presentation? Use ugly sketches",
-        "author"    : "MARTIN J. EPPLER",
-        "duration"  : "10:32",
-        "subtitle"  : "中文 (繁體)",
-        "sort"      : "Relevance"
-    },
-    {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_140320/8fb6c958-9bcc-4666-9bdc-8e370ada7a5b/Xiuhtezcatl_2024-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
-        "title"     : "'Careful' / 'Veils",
-        "author"    : "XIUHTEZCATL",
-        "duration"  : "10:37",
-        "subtitle"  : "English",
-        "sort"      : "Most viewed"
-    },
-    {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_140568/c8ad359c-21ae-40be-948c-8ccd2e3134a5/ladymengjiang_textless.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080", 
-        "title"     : "The women who broke the Great Wall of China",
-        "author"    : "JUWEN ZHANG",
-        "duration"  : "04:39",
-        "subtitle"  : "Español",
-        "sort"      : "oldest"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_141561/50ef340e-54b1-46f9-8bbf-65c6f025d1d1/Chin-TengLin_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
+        "title"         : "The mind-reading potential of AI",
+        "author"        : "CHIN-TENG LIN",
+        "duration"      : "15:40",
+        "subtitle"      :"中文 (繁體)",
+        "timestamp"     : "2024-01-09", 
+        "views"         : 13000, 
+        "relevanceScore": 74
     },
     {
     
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142484/df68f4ca-43de-4717-8691-f069a242067d/ACCoppens_ApolinarioPassos_KasleyKillam_2024N-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
-        "title"     : "What's our relationship to AI? It's complicated",
-        "author"    : "AC COPPENS, KASLEY KILLAM AND APOLINARIO PASSOS",
-        "duration"  : "38:51",
-        "subtitle"  : "English",
-        "sort"      : "oldest"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_143157/1765ec1e-aef9-471e-9d07-04440a4ca09d/RTA_TED.com_thumbnail_2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
+        "title"         : "How to be productive without burnout with Cal Newport",
+        "author"        : "RETHINKING WITH ADAM GRANT",
+        "duration"      : "41:29",
+        "subtitle"      : "English",
+        
+        "timestamp"     : "2024-01-10", 
+        "views"         : 19000, 
+        "relevanceScore": 90
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_139997/87c6c81c-df05-411b-917d-f8dde0a12dad/ShalineeSharma_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
-        "title"     : "4 steps to unlock your kid's math potential",
-        "author"    : "SHALINEE SHARMA",
-        "duration"  : "11:12",
-        "subtitle"  : "Español",
-        "sort"      : "Relevance"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142578/cfda2a88-9c3d-41f7-94f4-1457bdc9c535/animalgenerosity_textless.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
+        "title"         : "Why animals help each other",
+        "author"        : "ASHLEY WARD",
+        "duration"      : "03:58",
+        "subtitle"      : "Español",
+        
+        "timestamp"     : "2024-01-11", 
+        "views"         : 11000, 
+        "relevanceScore": 72
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142490/a38093ec-7948-414c-9fc6-d0e29c2365c1/TED-AI-Show_TED.com_thumbnail_2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
-        "title"     : "Humanity's first AI election with WIRED's Vittoria Elliott",
-        "author"    : "THE TED AI SHOW",
-        "duration"  : "38:32",
-        "subtitle"  : "日本語",
-        "sort"      : "Most viewed"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142488/207e3403-6c9e-48de-a506-3023909b8213/GabriellaLascano_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
+        "title"         : "Can you love your body — and still want to change it? ",
+        "author"        : "GABRIELLA LASCANO",
+        "duration"      : "09:00",
+        "subtitle"      : "日本語",
+        
+        "timestamp"     : "2024-01-12", 
+        "views"         : 15500, 
+        "relevanceScore": 81
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_141639/450afc10-2ad6-42ad-87aa-370af7470f38/pressure_textless.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
-        "title"     : "How to manage your stress more effectively",
-        "author"    : "SHANNON ODELL",
-        "duration"  : "05:12",
-        "subtitle"  : "Português brasileiro",
-        "sort"      : "oldest"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142396/990419e1-6015-42c8-9dea-7bdc28526863/JonathanReimer_2024X-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
+        "title"         : "How to make big decisions in challenging circumstances",
+        "author"        : "JONATHAN REINMER",
+        "duration"      : "14:51",
+        "subtitle"      : "Português brasileiro",
+        
+        "timestamp"     : "2024-01-13", 
+        "views"         : 14000, 
+        "relevanceScore": 77
+
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_138323/045d396d-a648-4ca9-9381-01aca29fbf2f/2024_TED_Fellows_Films_Thumbs_Norah-Magero-2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
-        "title"     : "This refrigerator is saving lives",
-        "author"    : "NORAH MAGERO",
-        "duration"  : "05:08",
-        "subtitle"  : "中文 (繁體)",
-        "sort"      : "Relevance"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142127/f3f13516-6a3e-4db4-b9b1-57e2234f9716/MartinEppler_2024X-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
+        "title"         : "Want to give a great presentation? Use ugly sketches",
+        "author"        : "MARTIN J. EPPLER",
+        "duration"      : "10:32",
+        "subtitle"      : "中文 (繁體)",
+        
+        "timestamp"     : "2024-01-14", 
+        "views"         : 12500, 
+        "relevanceScore": 75
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_141560/9e088e0e-8ee2-4d17-babc-d858ffba7060/KatherineSaunders_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
-        "title"     : "Why your body fights weight loss",
-        "author"    : "KATHERINE SAUNDERS",
-        "duration"  : "11:32",
-        "subtitle"  : "English",
-        "sort"      : "Most viewed"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_140320/8fb6c958-9bcc-4666-9bdc-8e370ada7a5b/Xiuhtezcatl_2024-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
+        "title"         : "'Careful' / 'Veils",
+        "author"        : "XIUHTEZCATL",
+        "duration"      : "10:37",
+        "subtitle"      : "English",
+        
+        "timestamp"     : "2024-01-15", 
+        "views"         : 17500, 
+        "relevanceScore": 89
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142260/c8732c26-596c-4e3e-9a33-2d47d99fdbaa/NoamBrown_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080", 
-        "title"     : "AI won't plateau — if we give it time to think",
-        "author"    : "NOAM BROWN",
-        "duration"  : "12:05",
-        "subtitle"  : "Español",
-        "sort"      : "oldest"
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_140568/c8ad359c-21ae-40be-948c-8ccd2e3134a5/ladymengjiang_textless.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080", 
+        "title"         : "The women who broke the Great Wall of China",
+        "author"        : "JUWEN ZHANG",
+        "duration"      : "04:39",
+        "subtitle"      : "Español",
+        
+        "timestamp"     : "2024-01-16", 
+        "views"         : 13500, 
+        "relevanceScore": 79
     },
     {
-        "image"     : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_141215/55f1bb39-7731-40ef-ab6e-b1adfb258a82/ChristopherByrne_2024N-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
-        "title"     : "How your childhood toys tell your life story",
-        "author"    : "CHRIS BYRNE",
-        "duration"  : "10:54",
-        "subtitle"  :"中文 (繁體)",
-        "sort"      :"Relevance"
+    
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142484/df68f4ca-43de-4717-8691-f069a242067d/ACCoppens_ApolinarioPassos_KasleyKillam_2024N-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
+        "title"         : "What's our relationship to AI? It's complicated",
+        "author"        : "AC COPPENS, KASLEY KILLAM AND APOLINARIO PASSOS",
+        "duration"      : "38:51",
+        "subtitle"      : "English",
+        
+        "timestamp"     : "2024-01-17", 
+        "views"         : 18500, 
+        "relevanceScore": 91
+    },
+    {
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_139997/87c6c81c-df05-411b-917d-f8dde0a12dad/ShalineeSharma_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
+        "title"         : "4 steps to unlock your kid's math potential",
+        "author"        : "SHALINEE SHARMA",
+        "duration"      : "11:12",
+        "subtitle"      : "Español",
+        
+        "timestamp"     : "2024-01-18", 
+        "views"         : 11500, 
+        "relevanceScore": 70
+    },
+    {
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142490/a38093ec-7948-414c-9fc6-d0e29c2365c1/TED-AI-Show_TED.com_thumbnail_2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
+        "title"         : "Humanity's first AI election with WIRED's Vittoria Elliott",
+        "author"        : "THE TED AI SHOW",
+        "duration"      : "38:32",
+        "subtitle"      : "日本語",
+        
+        "timestamp"     : "2024-01-19", 
+        "views"         : 16500, 
+        "relevanceScore": 84
+    },
+    {
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_141639/450afc10-2ad6-42ad-87aa-370af7470f38/pressure_textless.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
+        "title"         : "How to manage your stress more effectively",
+        "author"        : "SHANNON ODELL",
+        "duration"      : "05:12",
+        "subtitle"      : "Português brasileiro",
+        
+        "timestamp"     : "2024-01-20", 
+        "views"         : 10500, 
+        "relevanceScore": 66
+    },
+    {
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_138323/045d396d-a648-4ca9-9381-01aca29fbf2f/2024_TED_Fellows_Films_Thumbs_Norah-Magero-2880x1620.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
+        "title"         : "This refrigerator is saving lives",
+        "author"        : "NORAH MAGERO",
+        "duration"      : "05:08",
+        "subtitle"      : "中文 (繁體)",
+        
+        "timestamp"     : "2024-01-21", 
+        "views"         : 19500, 
+        "relevanceScore": 93
+    },
+    {
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_141560/9e088e0e-8ee2-4d17-babc-d858ffba7060/KatherineSaunders_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
+        "title"         : "Why your body fights weight loss",
+        "author"        : "KATHERINE SAUNDERS",
+        "duration"      : "11:32",
+        "subtitle"      : "English",
+        
+        "timestamp"     : "2024-01-22", 
+        "views"         : 10000, 
+        "relevanceScore": 65
+    },
+    {
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_142260/c8732c26-596c-4e3e-9a33-2d47d99fdbaa/NoamBrown_2024S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080", 
+        "title"         : "AI won't plateau — if we give it time to think",
+        "author"        : "NOAM BROWN",
+        "duration"      : "12:05",
+        "subtitle"      : "Español",
+        
+        "timestamp"     : "2024-01-23", 
+        "views"         : 15550, 
+        "relevanceScore": 82
+    },
+    {
+        "image"         : "https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/talks/talk_141215/55f1bb39-7731-40ef-ab6e-b1adfb258a82/ChristopherByrne_2024N-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=1080",
+        "title"         : "How your childhood toys tell your life story",
+        "author"        : "CHRIS BYRNE",
+        "duration"      : "10:54",
+        "subtitle"      :"中文 (繁體)",
+        "timestamp"     : "2024-01-24", 
+        "views"         : 14200, 
+        "relevanceScore": 76
     }
 ]

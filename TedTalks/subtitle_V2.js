@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
         card.classList.add('card');
 
         const thumbnailContainer = document.createElement('div');
-        thumbnailContainer.classList.add('thumbnails');
+        thumbnailContainer.classList.add('thumbnails'); 
 
         const img = document.createElement('img');
         img.src = video.image;
