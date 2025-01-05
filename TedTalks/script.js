@@ -145,13 +145,11 @@ document.addEventListener('DOMContentLoaded', function() {
         searchBar.style.right = '0';
         searchBar.style.zIndex = '1000';
         searchBar.style.backgroundColor = 'rgb(246, 246, 246)';
-        searchBar.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
         searchBar.style.padding = '10px 20px';
     }
     
     function resetSearchBar() {
         searchBar.style.position = 'static';
-        searchBar.style.boxShadow = 'none';
         searchBar.style.padding = '';
     }
     
