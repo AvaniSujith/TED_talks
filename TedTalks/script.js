@@ -38,7 +38,6 @@ document.addEventListener('DOMContentLoaded', function() {
             .btn-text.animate-up {
                 position: absolute;
                 top: -8px;
-                left: 8px;
                 transform: translateY(0);
                 transition: all 150ms cubic-bezier(.4,0,.2,1);
                 background-color: rgb(255, 255, 255);
@@ -52,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             .selected-item {
                 display: inline-block;
+                padding-left:8px;
                 opacity: 1;
                 transition: all 150ms cubic-bezier(.4,0,.2,1);
             }
@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
         searchBar.style.right = '0';
         searchBar.style.zIndex = '1000';
         searchBar.style.backgroundColor = 'rgb(246, 246, 246)';
-        searchBar.style.padding = '10px 20px';
+        searchBar.style.padding = '1rem 3rem 1.5rem 3rem';
     }
     
     function resetSearchBar() {

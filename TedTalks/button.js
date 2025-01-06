@@ -158,17 +158,24 @@ menuBtn.addEventListener("click", ()=>{
                 left:0;
                 z-index:1000;
             }
+
             main{
                 background-color: rgb(229,231,235);
                 position: fixed;
                 width:100%;
                 height:100vh;
                 top:56px;
+                z-index:999;
+            }
+            body{
+                overflow:hidden;
             }
         `;
 
         document.head.appendChild(style);
     }else{
         menuPlaceholder.innerHTML = "";
+
     }
-})
+});
+
